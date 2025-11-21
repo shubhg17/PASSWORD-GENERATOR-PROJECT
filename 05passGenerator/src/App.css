@@ -1,5 +1,73 @@
-.passheader {
-   font-size:50px;
-   text-align:center;
+.passHeading {
    color:white;
+   text-align:center;
+   font-family:Arial , Roboto;
+}
+
+.passBar {
+    font-size:25px;
+    border-radius:100px;
+    border:none;
+    padding-top:5px;
+    padding-bottom:5px;
+    width:600px;
+}
+
+.innerdiv {
+   display:flex;
+   justify-content:center;
+   margin-bottom:10px;
+}
+
+.copybutton {
+    background-color:rgb(12, 89, 231);
+    color:white;
+    border:none;
+    border-radius:100px;
+    font-size:25px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+
+.copybutton:active {
+    background-color:rgb(248, 246, 246);
+    transition: 0.5;
+}
+
+.outerdiv {
+    background-color:rgb(51, 50, 50);
+    padding-bottom:40px;
+    padding-top:20px;
+}
+
+.innerdiv2 {
+   display:flex;
+   justify-content:center;
+}
+
+
+.label1 {
+   color:orange;
+   font-size:20px;
+}
+
+.innerdiv3 {
+   display:flex;
+   justify-content:center;
+}
+
+.label2 {
+    color:orange;
+    font-size:20px;
+}
+
+.innerdiv4 {
+   display:flex;
+   justify-content:center;
+}
+
+.label3 {
+   color:orange;
+   font-size:20px;
 }
